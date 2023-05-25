@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Notebook Grading",
+      "setup": "pip install nbformat && python cell-replace/cell-replace.py microproject-bechdel-test.ipynb release/microproject-bechdel-test.ipynb",
+      "run": "jupyter nbconvert --to=python microproject-bechdel-test.ipynb && python microproject-bechdel-test.py",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 100
+    }
+  ]
+}
