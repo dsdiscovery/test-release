@@ -1,0 +1,28 @@
+{
+  "tests": [
+    {
+      "name": "microproject-spotify - Part_1_1_and_1_2",
+      "setup": "",
+      "run": "pytest test_microproject-spotify.py::test_Part_1_1_and_1_2",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "microproject-spotify - Part_2_1_and_2_2",
+      "setup": "",
+      "run": "pytest test_microproject-spotify.py::test_Part_2_1_and_2_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-spotify - Part_3_1__3_2__and_3_3",
+      "setup": "",
+      "run": "pytest test_microproject-spotify.py::test_Part_3_1__3_2__and_3_3",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}

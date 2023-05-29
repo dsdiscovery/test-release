@@ -1,11 +1,52 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python microproject-world-university-rankings.ipynb && python microproject-world-university-rankings.py",
+      "name": "microproject-world-university-rankings - Part_1",
+      "setup": "",
+      "run": "pytest test_microproject-world-university-rankings.py::test_Part_1",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
+    },
+    {
+      "name": "microproject-world-university-rankings - Puzzle_1",
+      "setup": "",
+      "run": "pytest test_microproject-world-university-rankings.py::test_Puzzle_1",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-world-university-rankings - Puzzle_1_2",
+      "setup": "",
+      "run": "pytest test_microproject-world-university-rankings.py::test_Puzzle_1_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-world-university-rankings - Puzzle_2",
+      "setup": "",
+      "run": "pytest test_microproject-world-university-rankings.py::test_Puzzle_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-world-university-rankings - Puzzle_2_2",
+      "setup": "",
+      "run": "pytest test_microproject-world-university-rankings.py::test_Puzzle_2_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-world-university-rankings - Puzzle_3",
+      "setup": "",
+      "run": "pytest test_microproject-world-university-rankings.py::test_Puzzle_3",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
     }
   ]
 }

@@ -1,11 +1,52 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python microproject-video-frame-scene-recognition-model.ipynb && python microproject-video-frame-scene-recognition-model.py",
+      "name": "microproject-video-frame-scene-recognition-model - Reading_Video_Frames",
+      "setup": "",
+      "run": "pytest test_microproject-video-frame-scene-recognition-model.py::test_Reading_Video_Frames",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
+    },
+    {
+      "name": "microproject-video-frame-scene-recognition-model - Puzzle_1_1",
+      "setup": "",
+      "run": "pytest test_microproject-video-frame-scene-recognition-model.py::test_Puzzle_1_1",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-video-frame-scene-recognition-model - Puzzle_1_2",
+      "setup": "",
+      "run": "pytest test_microproject-video-frame-scene-recognition-model.py::test_Puzzle_1_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-video-frame-scene-recognition-model - Part_2",
+      "setup": "",
+      "run": "pytest test_microproject-video-frame-scene-recognition-model.py::test_Part_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-video-frame-scene-recognition-model - Part_3",
+      "setup": "",
+      "run": "pytest test_microproject-video-frame-scene-recognition-model.py::test_Part_3",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-video-frame-scene-recognition-model - Part_4",
+      "setup": "",
+      "run": "pytest test_microproject-video-frame-scene-recognition-model.py::test_Part_4",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
     }
   ]
 }

@@ -1,11 +1,44 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python microproject-choropleth-map-dataframe.ipynb && python microproject-choropleth-map-dataframe.py",
+      "name": "microproject-choropleth-map-dataframe - Part_1_and_2",
+      "setup": "",
+      "run": "pytest test_microproject-choropleth-map-dataframe.py::test_Part_1_and_2",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
+    },
+    {
+      "name": "microproject-choropleth-map-dataframe - Part_3",
+      "setup": "",
+      "run": "pytest test_microproject-choropleth-map-dataframe.py::test_Part_3",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-choropleth-map-dataframe - Part_4",
+      "setup": "",
+      "run": "pytest test_microproject-choropleth-map-dataframe.py::test_Part_4",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-choropleth-map-dataframe - Part_5",
+      "setup": "",
+      "run": "pytest test_microproject-choropleth-map-dataframe.py::test_Part_5",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-choropleth-map-dataframe - Part_6",
+      "setup": "",
+      "run": "pytest test_microproject-choropleth-map-dataframe.py::test_Part_6",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
     }
   ]
 }

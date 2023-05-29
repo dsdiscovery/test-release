@@ -1,11 +1,36 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python 09-microproject-valentines-day.ipynb && python 09-microproject-valentines-day.py",
+      "name": "microproject-valentines-day - Data_Import",
+      "setup": "",
+      "run": "pytest test_microproject-valentines-day.py::test_Data_Import",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
+    },
+    {
+      "name": "microproject-valentines-day - Puzzle_1_1",
+      "setup": "",
+      "run": "pytest test_microproject-valentines-day.py::test_Puzzle_1_1",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-valentines-day - Puzzle_1_2_and_1_3",
+      "setup": "",
+      "run": "pytest test_microproject-valentines-day.py::test_Puzzle_1_2_and_1_3",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-valentines-day - Part_2",
+      "setup": "",
+      "run": "pytest test_microproject-valentines-day.py::test_Part_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
     }
   ]
 }

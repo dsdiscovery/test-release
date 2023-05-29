@@ -1,11 +1,28 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python microproject-simulation-for-ten-heads-in-a-row.ipynb && python microproject-simulation-for-ten-heads-in-a-row.py",
+      "name": "microproject-simulation-for-ten-heads-in-a-row - Initial_Simulation",
+      "setup": "",
+      "run": "pytest test_microproject-simulation-for-ten-heads-in-a-row.py::test_Initial_Simulation",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
+    },
+    {
+      "name": "microproject-simulation-for-ten-heads-in-a-row - Two_coin_Simulation",
+      "setup": "",
+      "run": "pytest test_microproject-simulation-for-ten-heads-in-a-row.py::test_Two_coin_Simulation",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-simulation-for-ten-heads-in-a-row - Ten_coin_Simulation",
+      "setup": "",
+      "run": "pytest test_microproject-simulation-for-ten-heads-in-a-row.py::test_Ten_coin_Simulation",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "tests": [
+    {
+      "name": "microproject-senate-elections - Data_Import",
+      "setup": "",
+      "run": "pytest test_microproject-senate-elections.py::test_Data_Import",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "microproject-senate-elections - State_level_Analysis",
+      "setup": "",
+      "run": "pytest test_microproject-senate-elections.py::test_State_level_Analysis",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-senate-elections - Democrat_Votes",
+      "setup": "",
+      "run": "pytest test_microproject-senate-elections.py::test_Democrat_Votes",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}

@@ -1,11 +1,44 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python microproject-united-nations-refugee-data.ipynb && python microproject-united-nations-refugee-data.py",
+      "name": "microproject-united-nations-refugee-data - Puzzle_1_1",
+      "setup": "",
+      "run": "pytest test_microproject-united-nations-refugee-data.py::test_Puzzle_1_1",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
+    },
+    {
+      "name": "microproject-united-nations-refugee-data - Puzzle_1_2",
+      "setup": "",
+      "run": "pytest test_microproject-united-nations-refugee-data.py::test_Puzzle_1_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-united-nations-refugee-data - Puzzle_2_1_and_2_2",
+      "setup": "",
+      "run": "pytest test_microproject-united-nations-refugee-data.py::test_Puzzle_2_1_and_2_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-united-nations-refugee-data - Puzzle_2_3",
+      "setup": "",
+      "run": "pytest test_microproject-united-nations-refugee-data.py::test_Puzzle_2_3",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-united-nations-refugee-data - Puzzle_3",
+      "setup": "",
+      "run": "pytest test_microproject-united-nations-refugee-data.py::test_Puzzle_3",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
     }
   ]
 }

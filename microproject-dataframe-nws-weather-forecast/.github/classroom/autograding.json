@@ -1,11 +1,12 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python microproject-dataframe-nws-weather-forecast.ipynb && python microproject-dataframe-nws-weather-forecast.py",
+      "name": "microproject-dataframe-nws-weather-forecast - Puzzle_1__2__and_3",
+      "setup": "",
+      "run": "pytest test_microproject-dataframe-nws-weather-forecast.py::test_Puzzle_1__2__and_3",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
     }
   ]
 }

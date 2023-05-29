@@ -1,11 +1,20 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python microproject-custom-discrete-distributions.ipynb && python microproject-custom-discrete-distributions.py",
+      "name": "microproject-custom-discrete-distributions - Customer_in_a_tea_shop",
+      "setup": "",
+      "run": "pytest test_microproject-custom-discrete-distributions.py::test_Customer_in_a_tea_shop",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
+    },
+    {
+      "name": "microproject-custom-discrete-distributions - Final_scores_in_DISCOVERY",
+      "setup": "",
+      "run": "pytest test_microproject-custom-discrete-distributions.py::test_Final_scores_in_DISCOVERY",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
     }
   ]
 }

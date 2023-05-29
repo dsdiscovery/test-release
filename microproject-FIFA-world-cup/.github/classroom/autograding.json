@@ -1,11 +1,44 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python 08-microproject-FIFA-world-cup.ipynb && python 08-microproject-FIFA-world-cup.py",
+      "name": "microproject-FIFA-world-cup - Data_Import",
+      "setup": "",
+      "run": "pytest test_microproject-FIFA-world-cup.py::test_Data_Import",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
+    },
+    {
+      "name": "microproject-FIFA-world-cup - Part_1",
+      "setup": "",
+      "run": "pytest test_microproject-FIFA-world-cup.py::test_Part_1",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-FIFA-world-cup - Part_2_2",
+      "setup": "",
+      "run": "pytest test_microproject-FIFA-world-cup.py::test_Part_2_2",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-FIFA-world-cup - Part_3",
+      "setup": "",
+      "run": "pytest test_microproject-FIFA-world-cup.py::test_Part_3",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "microproject-FIFA-world-cup - Part_4",
+      "setup": "",
+      "run": "pytest test_microproject-FIFA-world-cup.py::test_Part_4",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
     }
   ]
 }

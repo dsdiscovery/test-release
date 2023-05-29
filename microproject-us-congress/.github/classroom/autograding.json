@@ -1,11 +1,12 @@
 {
   "tests": [
     {
-      "name": "Notebook Grading",
-      "run": "jupyter nbconvert --to=python 01-microproject-us-congress.ipynb && python 01-microproject-us-congress.py",
+      "name": "microproject-us-congress - Puzzle_1__2__and_3",
+      "setup": "",
+      "run": "pytest test_microproject-us-congress.py::test_Puzzle_1__2__and_3",
       "comparison": "included",
       "timeout": 0.5,
-      "points": 100
+      "points": 1
     }
   ]
 }
